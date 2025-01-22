@@ -184,6 +184,12 @@ a {
   background-color: #f3f3f3;
 }
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .submit-btn {
   padding: 25px 82px;
   display: inline-block;
