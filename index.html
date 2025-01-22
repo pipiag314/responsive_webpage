@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Website</title>
+    <title>Responsive App</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,33 +13,31 @@
       rel="stylesheet" />
   </head>
   <body>
-    <div class="header">
-      <h1>Logo</h1>
-      <div class="nav">
+    <header class="header">
+      <h2>Logo</h2>
+      <div class="navigation">
         <a href="#">About</a>
         <a href="#">Work</a>
         <a href="#">Contact</a>
       </div>
-      <button class="menu_btn">
-        <img src="./images/menu_icon.svg" alt="menu icon" />
+      <button class="menu-btn">
+        <img src="./images/menu.svg" alt="menu" />
       </button>
-    </div>
-    <div class="hero_section">
-      <div class="hero_card">
-        <div class="artist">
-          <img
-            width="195px"
-            height="195px"
-            src="./images/Image.png"
-            alt="artist image" />
-          <p>
-            <strong>Pablo Designero</strong><br />
-            Designer & Unicorn Trainer
+    </header>
+
+    <section class="bio-section">
+      <div class="bio-container">
+        <div class="profile">
+          <img src="./images/profile.png" alt="profile image" />
+          <h3 class="title-text mt-20">Pablo Designero</h3>
+          <p class="secondary-text mt-5">
+            Designer & Unicorn<br />
+            Trainer
           </p>
         </div>
-        <div class="bio">
-          <h4>Bio:</h4>
-          <p class="bio_text">
+        <div class="bio-text">
+          <h3 class="title-text">Bio:</h3>
+          <p class="secondary-text mt-5">
             Father of 3 humans, 5 unicorns & 2 dogs,I design since I can
             remember it. I often get asked where I get my inspiration from: in
             everyday’s lil’ details. And sometimes in leftover food I find in my
@@ -47,83 +45,77 @@
           </p>
         </div>
       </div>
-    </div>
-    <div class="biography_section">
-      <div class="biography">
-        <p class="biography_first_text">
+    </section>
+
+    <section class="about-section">
+      <div class="about-container">
+        <h3 class="section-title">
           When I was 5, I got adbucted by a unicorn family. When they returned
           me to earth, I joined a designer school. But, fo’ real, what I learned
           with my kidnaptive family really gave an edge to my creative language.
+        </h3>
+        <div class="highlighted-text mt-60">
+          <p>Being a human is way too complicated. Time to be a unicorn.</p>
+        </div>
+        <p>
+          Try it and you’ll see. Then your Figma files are just gonna fly in
+          color, glitter, interactions and autolayout.
         </p>
-        <div class="biography_second_text">
-          <p class="highlighted_text">
-            Being a human is way too complicated. Time to be a unicorn.
-          </p>
-          <p class="normal_text">
-            Try it and you’ll see. Then your Figma files are just gonna fly in
-            color, glitter, interactions and autolayout.
-          </p>
-          <p class="highlighted_text">
-            Also, grow a beard. Check my bio if that is not clear.
-          </p>
-          <p class="normal_text">
-            Available for projects, from Monday to Tuesday, mainy between 14 and
-            16. (Unless there is a unicorn race on TV - DUH -in that case, come
-            back another day).
-          </p>
-          <p class="normal_text">
-            Projects include, RocknRoll covers, furniture refurbishing, Unicorn
-            potty training and more.
-          </p>
+        <div class="highlighted-text">
+          <p>Also, grow a beard. Check my bio if that is not clear.</p>
         </div>
+        <p>
+          Available for projects, from Monday to Tuesday, mainy between 14 and
+          16. (Unless there is a unicorn race on TV - DUH -in that case, come
+          back another day). <br />Projects include, RocknRoll covers, furniture
+          refurbishing, Unicorn potty training and more.
+        </p>
       </div>
-    </div>
+    </section>
 
-    <div class="footer">
-      <div class="footer_container">
-        <div class="footer_content">
-          <h2 class="footer_title">Let's work together</h2>
-          <p class="footer_text">
-            This is a template Figma file, turned into code using Anima. Learn
-            more at AnimaApp.com This is a template Figma file, turned into code
-            using Anima. Learn more at AnimaApp.com
-          </p>
-          <div class="footer_links">
-            <a href="#">
-              <img src="./images/discord.svg" alt="discord logo" />
-            </a>
-            <a href="#">
-              <img src="./images/facebook.svg" alt="facebook" />
-            </a>
-            <a href="#">
-              <img src="./images/basketball_ball.svg" alt="basketball ball" />
-            </a>
-            <a href="#">
-              <img src="./images/instagram.svg" alt="instagram" />
-            </a>
-            <a href="#">
-              <img src="./images/be.svg" alt="Be logo" />
-            </a>
+    <footer class="footer">
+      <div class="for-border-top">
+        <div class="footer-container">
+          <div class="footer-content">
+            <div class="footer-text">
+              <h2>Let’s work together</h2>
+              <p>
+                This is a template Figma file, turned into code using Anima.
+                Learn more at AnimaApp.com This is a template Figma file, turned
+                into code using Anima. Learn more at AnimaApp.com
+              </p>
+            </div>
+            <div class="footer-links">
+              <a href="#">
+                <img src="./images/discord.svg" alt="discord" />
+              </a>
+              <a href="#">
+                <img src="./images/facebook.svg" alt="facebook" />
+              </a>
+              <a href="#">
+                <img src="./images/dribbble.svg" alt="dribbble" />
+              </a>
+              <a href="#">
+                <img src="./images/instagram.svg" alt="instagram" />
+              </a>
+              <a href="#">
+                <img src="./images/behance.svg" alt="behance" />
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="footer_form">
-          <div class="input_container">
-            <input
-              class="footer_input"
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name" />
-            <input
-              class="footer_input"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email" />
+          <div class="footer-form">
+            <div class="input-container">
+              <input name="name" type="text" placeholder="Name" />
+              <input
+                class="mt-20"
+                name="email"
+                type="email"
+                placeholder="Email" />
+            </div>
+            <button class="submit-btn">Submit</button>
           </div>
-          <button class="submit_btn">Submit</button>
         </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
